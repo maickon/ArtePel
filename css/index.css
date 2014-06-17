@@ -1,0 +1,331 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width:1200px;
+	float:left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 1px solid #CCC;
+	margin-left: 70px;
+}
+
+.cabecalho {
+	width:1200px;
+	float:left;
+}
+
+.logo {
+	margin-top: 30px;
+	margin-left: 85px;
+	src: url(img/Layout.png);
+}
+.info {
+	margin-top: 75px;
+	margin-right: 85px;
+	float: right;
+	font-size: 16px;
+}
+
+.menubar {
+	width: 1200px;
+	height: auto;
+	margin-top: 55px;
+	background-image: linear-gradient(to bottom,  #009,#006);
+	border: 1px solid;
+	text-align: center;
+	text-ident: 10px;
+	text-decoration: none;
+	text-color: white;
+	size: 12px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float:left;
+}
+
+.menubar a {
+	text-decoration: none;
+	color: white;
+	margin: 50px;
+}
+
+.menubar a:link {
+	text-decoration: none;
+}
+
+.menubar a:visited {
+	text-decoration: none;
+}
+
+.menubar a:active {
+	text-decoration: none;
+	color: red;
+	border: red;
+}
+
+.menubar a:hover {
+	text-decoration: none;
+	font-wight: bold;
+	color: #FFFF00;
+	border: #FFFF00;
+}
+
+.menubody {
+	width: 245px;
+	height: 212px;
+	border: 1px solid #666;
+	border-radius: 15px;
+	margin-left: 40px;
+	margin-top: 54px;
+	margin-bottom: 54px;
+	float:left;
+}
+
+.menubody h3 {
+	color: white;
+	background-image: linear-gradient(to bottom,  #009,#006);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 70px;
+	margin-top: auto;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.menubody a {
+	color: black;
+	padding-left:25px;
+	text-decoration: none;
+}
+
+.menubody a:hover {
+	font-wight: bold;
+	color: #666;
+	border: #666;
+}
+
+.banner {
+	width: 850px;
+	height: 233px;
+	background-image: linear-gradient(to bottom, #009,#006);
+	border: 1px solid #666;
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 54px;
+	margin-right: 40px;
+}	
+.item{
+	width: 240px;
+	height: 150px;
+	margin:5px;
+}
+
+.item_vitrine{
+	width: 270px;
+	height: 270px;
+	overflow:auto;
+	background-color:#FFF;
+	margin-bottom:10px;
+	margin-left:8px;
+	text-align:center;
+	float:left;
+	border: 1px solid #CCC;
+}
+.item_vitrine:hover{
+	border: 1px solid #00F;
+	font:Verdana, Geneva, sans-serif;
+	font-size:20px;
+}
+.nome{
+	font:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	text-align:center;
+	margin:5px;
+}
+
+.descricao{
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center;
+	margin:5px;
+	color:#666;
+}
+
+#mostruario {
+	width: 850px;
+	height: auto;
+	border: 1px solid #666;
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 54px;
+	margin-right: 40px;
+	margin-bottom:20px;
+	background-color: #EBEBEB;
+	float:right;
+}
+#mostruario2{
+	width: 1100px;
+	height: auto;
+	border: 1px solid #666;
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 54px;
+	margin: 50px;
+	margin-bottom:20px;
+	background-color: #EBEBEB;
+	float:inherit;
+}
+#mostruario2 h3 {
+	border-radius: 15px 15px 0px 0px;
+}
+#mostruario h3 {
+	border-radius: 15px 15px 0px 0px;
+}
+h3 {
+	background-image: linear-gradient(to bottom,  #009,#006);
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 40px;
+	margin-top: auto;
+}
+
+.footer {
+	width: 1200px;
+	height: auto;
+	color:#CCC;
+	background-image: linear-gradient(to bottom, #009,#006);
+	border: 1px solid #666;
+	padding-top: 80px;
+	padding-bottom: 55px;
+	text-decoration: none;
+	float:right;
+}
+
+.footer a {
+	color: #CCC;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	font-wight: bold;
+	color: #999;
+	border: #999;
+}
+
+.footer h5 {
+	color: #CCC;
+}
+
+.erro{
+	border:#CCC solid 2px;
+	background-color:#FF0606;
+	color:#CCC;	
+}
+
+.page{
+	background:#FFF;
+	border:#FFF 1px solid;	
+	color:#000;
+	width:25px;
+	height:25px;
+	float:left;
+	border-radius: 5px;
+	margin:5px;
+}
+.page:hover{
+	background:#03C;
+	color:#FFF;
+}
+
+.atual{
+	background:#03C;
+	color:#FFF;
+}
+
+.page_links{
+	width:850px;
+	text-align:center;
+	background-color:#009;
+	float:left;	
+}
+.grupo_links{
+	margin-left:auto;
+}
+#header{
+	background-image:url(../img/art_pel_painel.jpg);
+	height:220px;
+	opacity:1;
+}
+
+.painel_adm{
+	float:left;
+	color:#000;	
+}
+.painel_adm_time{
+	float:right;
+	color:#000;
+	margin-bottom:20px;
+}
+
+fieldset {
+	border: 1px solid #a9a9a9;
+	padding: 20px 10px;
+}
+legend {
+	font-size: 18px;
+	padding: 0 10px;
+}
+form label{
+	float: left;
+	width: 100px;
+	text-align: right;
+	margin-right: 5px ;
+}
+form label.error {
+	float: none;
+	display: block;
+	color: #f00;
+	width: auto;
+	text-align: left;
+	padding-left: 105px;
+}
+form input[type=text], form input[type=password], form textarea,select,option {
+	padding: 5px;
+	border: 1px solid #ccc;
+	width: 95%;
+}
+form input[type=text]:focus, form input[type=password]:focus, form textarea:focus {
+	background: #f8f8f8;
+	border: 1px solid #666;
+}
+.radius5{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+.erro, .sucesso, .alerta, .pergunta{
+	width: 96%;
+	padding: 2%;
+	margin: 10px 0;
+}
+.sucesso{
+	background: #eff4d4;
+	border: 1px solid #8fad3d;
+	color: #596c26;
+}
+.alerta{
+	background: #ffea97;
+	border: 1px solid #e2b500;
+	color: #995fb5;
+}
+.aviso{
+	color: red;
+}
+.erro{
+	background: #efcec9;
+	border: 1px solid #ac3f30;
+	color: #943728;
+}
+.pergunta{
+	background: #c6d8f0;
+	border: 1px solid #4381cc;
+	color: #5c58b9;
+}
